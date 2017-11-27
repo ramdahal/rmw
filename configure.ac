@@ -13,3 +13,9 @@ AM_GNU_GETTEXT([external], [need-formatstring-macros])
 AM_GNU_GETTEXT_VERSION([0.19.8])
 
 AC_OUTPUT(Makefile src/Makefile etc/Makefile man/Makefile po/Makefile.in)
+
+echo ""
+echo ""
+echo "Now you can run 'make' followed by 'make install'"
+echo "rmw will be installed to $prefix/bin and the configuration file"
+echo ""

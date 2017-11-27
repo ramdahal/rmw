@@ -16351,3 +16351,9 @@ if test -n "$ac_unrecognized_opts" && test "$enable_option_checking" != no; then
 $as_echo "$as_me: WARNING: unrecognized options: $ac_unrecognized_opts" >&2;}
 fi
 
+
+echo ""
+echo ""
+echo "Now you can run 'make' followed by 'make install'"
+echo "rmw will be installed to $prefix/bin and the configuration file"
+echo ""
